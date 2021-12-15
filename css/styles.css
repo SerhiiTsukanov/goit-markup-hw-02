@@ -5,3 +5,18 @@
 .link {
   text-decoration: none;
 }
+
+.under-header {
+  width: 1600;
+  height: 600;
+  background-color: #2f303a;
+}
+
+.under-header-h1 {
+  color: #ffffff;
+}
+
+.under-header-btn {
+  background-color: #2196f3;
+  color: #ffffff;
+}

@@ -6,10 +6,26 @@
   text-decoration: none;
 }
 
+.header-nav {
+  color: #212121;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.link:focus {
+}
+
+.link-tel,
+.link-mail {
+  color: #757575;
+}
+
 .under-header {
+  background-color: #2f303a;
   width: 1600;
   height: 600;
-  background-color: #2f303a;
 }
 
 .under-header-h1 {
@@ -19,4 +35,20 @@
 .under-header-btn {
   background-color: #2196f3;
   color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .link {
+  color: #ffffff;
+}
+
+.footer .link-tel:hover {
+  color: #2196f3;
+}
+
+.footer .link-mail:hover {
+  color: #2196f3;
 }

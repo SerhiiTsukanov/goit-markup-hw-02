@@ -6,7 +6,18 @@
   text-decoration: none;
 }
 
-/* -----Header----- */
+:root {
+  --header-color: #212121;
+  --first-title-color: #ffffff;
+  --second-title-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+/* -------------------------Header----------------------- */
 
 .header {
 }
@@ -16,12 +27,11 @@
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
+  line-height: 1.19px;
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-link {
@@ -35,13 +45,6 @@
   color: #212121;
 }
 
-.header-link:hover {
-  color: #2196f3;
-}
-
-.link:focus {
-}
-
 .link-tel,
 .link-mail {
   color: #757575;
@@ -53,50 +56,170 @@
   letter-spacing: 0.02em;
 }
 
+.header-link:hover,
+.header-link:focus,
+.link-tel:hover,
+.link-mail:hover {
+  color: var(--accent-color);
+}
+
+.link-mail {
+}
+
+.link-tel {
+}
+
 .under-header {
   background-color: #2f303a;
-  width: 1600;
-  height: 600;
 }
 
 .under-header-h1 {
-  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--first-title-color);
 }
 
 .under-header-btn {
-  background-color: #2196f3;
-  color: #ffffff;
-  position: absolute;
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.88;
-  /* identical to box height, or 187% */
-
+  line-height: 1.87px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--first-title-color);
 }
+
+.under-header-btn:hover {
+  background-color: #188ce8;
+}
+
+.section-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--second-title-color);
+}
+
+.section-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.activity-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+
+.team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+
+.team-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+
+.team-position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*--------------------FOOTER-----------------------*/
 
 .footer {
   background-color: #2f303a;
 }
 
-.footer .link {
-  color: #ffffff;
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
 }
 
-.footer .link-tel:hover {
-  color: #2196f3;
+.footer {
+  color: var(--second-title-color);
 }
 
-.footer .link-mail:hover {
-  color: #2196f3;
+.link-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--first-title-color);
+}
+
+.footer link-tel,
+.footer link-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-tel:hover,
+.footer-link-mail:hover {
+  color: var(--accent-color);
 }

@@ -11,6 +11,7 @@
   --first-title-color: #ffffff;
   --second-title-color: #212121;
   --accent-color: #2196f3;
+  --logo-color: #2196f3;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
 /* -------------------------Header----------------------- */
 
 .header {
+  background-color: white;
 }
 
 .logo {
@@ -31,7 +33,11 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: var(--accent-color);
+  color: var(--header-color);
+}
+
+.logo-color {
+  color: var(--logo-color);
 }
 
 .header-link {
@@ -222,4 +228,50 @@ body {
 .footer-link-tel:hover,
 .footer-link-mail:hover {
   color: var(--accent-color);
+}
+
+/*----------------------------PORTFOLIO----------------------------------*/
+
+.portfolio-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.portfolio-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.portfolio-btn:hover {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }

@@ -16,6 +16,7 @@
 
 body {
   background-color: #e5e5e5;
+  font-family: Roboto;
 }
 
 /* -------------------------Header----------------------- */
@@ -26,10 +27,8 @@ body {
 
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
 
   letter-spacing: 0.03em;
 
@@ -41,8 +40,6 @@ body {
 }
 
 .header-link {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,8 +51,6 @@ body {
 .link-tel,
 .link-mail {
   color: #757575;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -80,8 +75,6 @@ body {
 }
 
 .under-header-h1 {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -92,11 +85,8 @@ body {
 }
 
 .under-header-btn {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -110,11 +100,8 @@ body {
 }
 
 .section-item {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -122,11 +109,8 @@ body {
 }
 
 .section-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
 
@@ -134,11 +118,8 @@ body {
 }
 
 .activity-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -146,9 +127,6 @@ body {
 }
 
 .team-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -158,8 +136,6 @@ body {
 }
 
 .team-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -170,11 +146,8 @@ body {
 }
 
 .team-position {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -189,8 +162,6 @@ body {
 
 .footer-logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -202,9 +173,6 @@ body {
 }
 
 .link-adress {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -214,11 +182,8 @@ body {
 
 .footer link-tel,
 .footer link-mail {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
 
@@ -233,9 +198,6 @@ body {
 /*----------------------------PORTFOLIO----------------------------------*/
 
 .portfolio-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -244,9 +206,6 @@ body {
 }
 
 .portfolio-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -255,13 +214,8 @@ body {
 }
 
 .portfolio-btn {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 

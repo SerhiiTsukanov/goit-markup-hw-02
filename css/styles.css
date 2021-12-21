@@ -180,14 +180,14 @@ body {
   color: var(--first-title-color);
 }
 
-.footer link-tel,
-.footer link-mail {
+.footer-link-tel,
+.footer-link-mail {
   font-size: 14px;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
 }
 
 .footer-link-tel:hover,
@@ -214,6 +214,8 @@ body {
 }
 
 .portfolio-btn {
+  font-family: Roboto;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;

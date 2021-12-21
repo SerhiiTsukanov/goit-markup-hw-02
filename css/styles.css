@@ -19,10 +19,23 @@ body {
   font-family: Roboto;
 }
 
+.button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /* -------------------------Header----------------------- */
 
 .header {
   background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .logo {

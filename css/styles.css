@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 :root {
   --header-color: #212121;
   --first-title-color: #ffffff;
@@ -85,6 +89,7 @@ body {
 
 .under-header {
   background-color: #2f303a;
+  margin-bottom: 94px;
 }
 
 .under-header-h1 {
@@ -95,6 +100,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--first-title-color);
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .under-header-btn {
@@ -106,10 +113,15 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--first-title-color);
+  padding-bottom: 200px;
 }
 
 .under-header-btn:hover {
   background-color: #188ce8;
+}
+
+.section {
+  margin-bottom: 94px;
 }
 
 .section-item {
@@ -119,6 +131,7 @@ body {
   text-transform: uppercase;
 
   color: var(--second-title-color);
+  margin-bottom: 10px;
 }
 
 .section-text {
@@ -130,6 +143,10 @@ body {
   color: #757575;
 }
 
+.activity {
+  padding-bottom: 94px;
+}
+
 .activity-title {
   font-size: 36px;
   line-height: 1.16;
@@ -137,6 +154,12 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--second-title-color);
+  margin-bottom: 50px;
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -146,6 +169,7 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--second-title-color);
+  margin-bottom: 50px;
 }
 
 .team-name {
@@ -156,6 +180,8 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--second-title-color);
+  margin-top: 30px;
+  mp: 10px;
 }
 
 .team-position {
@@ -165,12 +191,15 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
+  margin-bottom: 30px;
 }
 
 /*--------------------FOOTER-----------------------*/
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -209,7 +238,10 @@ body {
 }
 
 /*----------------------------PORTFOLIO----------------------------------*/
-
+.list-btn {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
 .portfolio-title {
   font-size: 18px;
   line-height: 2;

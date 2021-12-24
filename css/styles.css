@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -41,19 +41,35 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
-
   letter-spacing: 0.03em;
-
   color: var(--header-color);
+  margin-right: 93px;
+  margin-left: 215px;
 }
 
 .logo-color {
   color: var(--logo-color);
+}
+
+.heder-connect {
+  margin-left: auto;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-link {
@@ -72,6 +88,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.link-tel {
+  margin-right: 50px;
+}
+
+.link-mail {
+  padding-right: 215px;
 }
 
 .header-link:hover,
@@ -93,6 +117,8 @@ body {
 }
 
 .under-header-h1 {
+  width: 696px;
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -101,7 +127,9 @@ body {
   text-transform: uppercase;
   color: var(--first-title-color);
   padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-left: 452px;
+  padding-right: 452px;
 }
 
 .under-header-btn {

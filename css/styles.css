@@ -18,6 +18,21 @@ img {
   --logo-color: #2196f3;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #e5e5e5;
   font-family: Roboto;
@@ -78,9 +93,8 @@ body {
   color: #212121;
 }
 
-.heder-connect {
+.header-connect {
   margin-left: auto;
-  margin-right: 215px;
 }
 
 .link-tel,
@@ -94,6 +108,10 @@ body {
 
 .link-mail {
   padding-right: 50px;
+}
+
+.link-tel {
+  margin-right: 15px;
 }
 
 .header-link:hover,
@@ -116,8 +134,6 @@ body {
 }
 
 .under-header-h1 {
-  width: 696px;
-  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -126,6 +142,8 @@ body {
   text-align: center;
   color: var(--first-title-color);
   margin-bottom: 30px;
+  margin-left: 252px;
+  margin-right: 252px;
 }
 
 .under-header-btn {
@@ -135,6 +153,10 @@ body {
   text-align: center;
   background-color: var(--accent-color);
   color: var(--first-title-color);
+  min-width: 136px;
+  min-height: 30px;
+  margin-right: 500px;
+  margin-left: 500px;
 }
 
 .under-header-btn:hover {
@@ -287,7 +309,27 @@ body {
 .list-btn {
   padding-top: 94px;
   margin-bottom: 50px;
+  display: flex;
+  margin-left: 295px;
 }
+
+.list-portfolio-btn:not(:last-child) {
+  padding-right: 8px;
+}
+
+.list-work {
+  display: flex;
+}
+
+.work:not(:nth-child(3n + 3)) {
+  margin-right: 30px;
+}
+
+.work-text {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
@@ -311,7 +353,6 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 
